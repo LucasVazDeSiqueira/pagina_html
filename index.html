@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de Destinos Turísticos">
+    <meta name="keywords" content="destinos, turismo, viagem, atrações">
+    <title>Destinos Turísticos</title>
+</head>
+<body>
+    <header>
+        <h1>Destinos Turísticos Populares</h1>
+        <nav>
+            <ul>
+                <li><a href="./locais/tokyo.html">Tokyo</a></li> <br>
+                <li><a href="./locais/berlim.html">Berlim</a></li> <br>
+                <li><a href="./locais/oslo.html">Oslo</a></li> <br>
+                <li><a href="./locais/buenosaires.html">Buenos Aires</a></li> <br>
+                <li><a href="./locais/colombia.html">Bogotá</a></li> <br>
+                <li><a href="./locais/paris.html">Paris</a></li> <br>
+                <li><a href="./locais/madrid.html">Madrid</a></li> <br>
+                <li><a href="./locais/whashinton.html">Washington</a></li> <br>
+                <li><a href="./locais/canada.html">Vancouver</a></li> <br>
+                <li><a href="./locais/amsterdam.html">Amsterdam</a></li> <br>     
+                <li><a href="./pages/pages/contatos.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    </main>
+    
+    <section id="Contato">
+        <h2>Contato</h2>
+        <form action="processar_formulario.php" method="post"> <br>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome" name="nome" required> <br>
+            
+            <label for="email">E-mail:</label> <br>
+            <input type="email" id="email" name="email" required> <br>
+            
+            <label for="mensagem">Mensagem:</label> <br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Destinos Turísticos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
